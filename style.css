@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+}
+header{
+width: 100%;
+height: 70px;
+background-color: rgb(44, 44, 44);
+}
+.logo{
+    font-size:40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    float: right;
+    padding-right: 200px;
+    margin-top: -30px
+}
+nav .navli{
+    display: flex;
+    list-style: none;
+}
+nav .navli li{
+    padding: 0px 30px;
+}
+nav .navli li a{
+text-decoration: none;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white;
+    transition: all ease 0.3s;
+}
+nav .navli li a:hover{
+    color: rgb(215, 175, 44);
+    transition: all ease 0.3s;
+}
